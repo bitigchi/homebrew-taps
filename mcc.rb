@@ -9,7 +9,7 @@ class Mcc < Formula
   depends_on :xcode => ["11.0", :build]
 
   def install
-    system "make install", "PREFIX=#{prefix}"
+    system "make", "install", "PREFIX=#{prefix}"
   end
 
   test do
