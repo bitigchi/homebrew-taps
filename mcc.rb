@@ -9,7 +9,8 @@ class Mcc < Formula
   depends_on :xcode => ["11.0", :build]
 
   def install
-    system "make", "install", "PREFIX=#{prefix}"
+    system "swift" "build" "--disable-sandbox"
+    bin.install "mcc"
   end
 
   test do
