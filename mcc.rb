@@ -10,7 +10,6 @@ class Mcc < Formula
 
   def install
     system "swift", "build", "--disable-sandbox"
-    bin.install "mcc"
   end
 
   test do
