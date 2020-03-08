@@ -3,7 +3,7 @@ class Mcc < Formula
   homepage "https://github.com/bitigchi/mcc"
   version "0.1.6"
   url "https://github.com/bitigchi/mcc/archive/0.1.6.tar.gz"
-  sha256 "0438295797b07ac2aa45cbe622db0fb57c00b9ba3af163575de4dcbca5f2938d"
+  sha256 "1d57b2b12115a6aa7dd1732413c90a0e1c3d27f152f6fc13840e2d739e4f42c4"
   head "https://github.com/bitigchi/mcc.git"
 
   depends_on :xcode => ["11.0", :build]
